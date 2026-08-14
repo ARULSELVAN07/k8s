@@ -3,7 +3,7 @@ name: Deploy to KIND
 on:
   push:
     tags:
-      - 'release-*'
+      - '*'
 
 jobs:
   deploy:
