@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
         - name: java-demo-app
-          image: arulselvan07/java-app:9
+          image: arulselvan07/java-app:11
           imagePullPolicy: Always
 
           ports:
